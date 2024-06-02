@@ -3,6 +3,7 @@ dataset/*
 mount/*
 secrets/*
 logs/*
+env/*
 
 # Ignore big file extensions
 *.zip
