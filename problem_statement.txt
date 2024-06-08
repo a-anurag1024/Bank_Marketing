@@ -1,0 +1,41 @@
+|| Objectives: 
+    1> Main Objective: 
+        To create a classifier model which would be able to predict if the customer would subscribe to a term deposit or not
+    2> Additional Objective:
+        a>> To check which features are most responsible for a customer's likelihood for a term deposit (Using Rule Extraction and Sensitivity Methods). 
+        b>> To create a customer clusters where the popularity of the term deposit is highest so that accordingly terms of the term deposit can be changed and be made for favourable.
+
+|| Solution Use-case:
+    The solution is to be used for research and learning purpose only. 
+
+
+|| Current Solutions:
+    The current solution is highlighted in this paper which first introduced this dataset: 
+        
+        A data-driven approach to predict the success of bank telemarketing
+        By Sérgio Moro, P. Cortez, P. Rita. 2014
+        Published in Decision Support Systems
+
+
+|| Framing the problem:- 
+    1> For the Main Objective, different supervised ML classifiers would be used. We would be trying to use LogisticRegressor (LR), DecisionTree (DT), NeuralNetwork (NN) and different Ensemble Methods (RandomForest and XGBoost) to find the best classifier. 
+
+    2> For the additional objectives, to get the feature which is highest responsible, we would be using Rule Extraction and Sensitivity Methods. For customer clustering, we would be using unsupervised ML methods.
+
+
+|| Performance Metrics to be used:- 
+    
+    1>> For measuring the performance of the Classifier we would be using the AuC of the Reciever Operating Characteristics (ROC) as the primary performance measure.
+
+    2>> For Lift analysis, the Area under the LIFT (ALIFT) cumulative curve would be used. 
+
+    3>> A Rolling Window Analysis like the one done in the paper can be done using the same performance metrics AuC and ALIFT. 
+
+    4>> [NEED TO FIND] the right metrics for the Additional Objectives
+
+
+|| Minimum Performance Needed:- 
+    The performance should be similar to what is reported by the source paper, if not better. 
+
+
+|| Assumptions made:- 

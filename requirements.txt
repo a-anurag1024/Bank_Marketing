@@ -1,2 +1,5 @@
 pandas
 ydata-profiling
+plotly
+nbformat==5.10.4
+scikit-learn
