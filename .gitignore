@@ -4,6 +4,7 @@ mount/*
 secrets/*
 logs/*
 env/*
+.venv/*
 
 # Ignore big file extensions
 *.zip
